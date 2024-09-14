@@ -1,7 +1,7 @@
 # 用友U8 Cloud MultiRepChooseAction SQL注入漏洞 
 # title=="U8C"
 # 产品简介:用友U8 Cloud是用友推出的新一代云ERP，主要聚焦成长型、创新型企业，提供企业级云ERP整体解决方案。
-# 漏洞概述:用友U8 Cloud RepAddToTaskAction 接口处存在SQL注入漏洞，未经身份验证的远程攻击者除了可以利用 SQL 注入漏洞获取数据库中的信息（例如，管理员后台密码、站点的用户个人信息）之外，甚至在高权限的情况可向服务器中写入木马，进一步获取服务器系统权限。
+# 漏洞概述:用友U8 Cloud MultiRepChooseAction 接口处存在SQL注入漏洞，未经身份验证的远程攻击者除了可以利用 SQL 注入漏洞获取数据库中的信息（例如，管理员后台密码、站点的用户个人信息）之外，甚至在高权限的情况可向服务器中写入木马，进一步获取服务器系统权限。
 # GET/SQL延时注入
 
 import requests,argparse,sys
